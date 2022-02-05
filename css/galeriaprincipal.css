@@ -1,0 +1,15 @@
+#tarjetas{
+    margin-top: 20px;
+}
+
+
+@media screen  and (max-width: 800px){
+    #tarjetas{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .col{
+        justify-content: center;
+            text-align: -webkit-center;
+    }
+}

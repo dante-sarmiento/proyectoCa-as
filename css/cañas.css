@@ -1,17 +1,28 @@
-body{
+/* body{
     background-image: url(/assets/images/fondo/fondo.jpg);
     background-repeat: repeat-y;
     background-size: cover;
     color: white;
     object-fit: cover;
+} */
+body{
+    background: rgb(28, 27, 51) !important;
+    background: linear-gradient( 
+90deg
+, rgba(28, 27, 51, 1) 0%, rgb(170, 155, 155) 69%, rgb(28, 27, 51) 100% ) !important;
 }
 .navbar{
     padding: 0px;
     position: sticky;
+    background-color: rgba(0, 0, 0, 0.45) !important;
 }
 .container-fluid{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.45);
     color: white;
+}
+.categorias{
+    background-color: rgba(0, 0, 0, 0.45);
+        color: white;
 }
 .nav img{
     margin-right: 10px;
@@ -41,9 +52,7 @@ body{
     margin-top: 50px;
 }
 h1{
-    font-size: 60px;
-    background-color: black;
-    opacity: 0.9;
+    font-size: 80px;
 }
 a{
     text-decoration: none;
@@ -65,7 +74,7 @@ a{
     transform: translateY(-3%);
 }
 .card img{
-    object-fit: ;
+    object-fit:cover;
     height: 250px;
     width:100%;
 }
@@ -80,7 +89,7 @@ a{
     color: white;
     text-align: center;
     padding-top: 15px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.45);
     height: 100px;
     justify-content: space-around;
 }
