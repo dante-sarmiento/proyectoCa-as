@@ -1,0 +1,133 @@
+body{
+    background-image: url(/assets/images/fondo/fondo.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+    object-fit: cover;
+}
+.navbar{
+    padding: 0px;
+    position: sticky;
+}
+.container-fluid{
+    background-color: black;
+    color: white;
+}
+.nav img{
+    margin-right: 10px;
+}
+#navText{
+    color: white;
+}
+#navbarDropdownMenuLink{
+    color: white;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 100ms ease;
+    align-items: center;
+    padding: 10px;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+.categorias{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+h1{
+    font-size: 60px;
+    background-color: black;
+    opacity: 0.9;
+}
+a{
+    text-decoration: none;
+}
+.cards{
+    justify-content: center;
+    margin: 15px;
+}
+.card{
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgb(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+    background-color: black;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.7);
+    transform: translateY(-3%);
+}
+.card img{
+    object-fit: ;
+    height: 250px;
+    width:100%;
+}
+.card-text{
+    color: white;
+    text-align: center;
+}
+.card-body{
+    height: 70px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+    height: 100px;
+    justify-content: space-around;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+.izquierda{
+    text-align: initial;
+}
+.derecha{
+    align-self: baseline;
+}
+.contact{
+    padding: 5px;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-position: center;
+        background-size: cover;
+    }
+    .footer{
+        display: flex !important ;
+        flex-direction: row !important;
+    }
+    .contact{
+        display: none;
+    }
+    .copy{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-toggler-icon{
+        background-color: rgb(51, 51, 51);
+    }
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* 
+body{
+    background-color: white;
+    overflow-x: hidden;
+} */
+
+.gallery-container{
+    width: 80%;
+    margin: 100px auto;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(6, 300px);
+}
+.gallery-card{
+}
+
+.fotos {
+    width: 300px;
+    height: 300px;
+}
